@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/bbeb8f82ca.js" crossorigin="anonymous"></script>
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+      * {
+    box-sizing: border-box;
+}
+        .navbar-toggler{
+    color: white;
+    font-size: 25px;
+    border-color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.pro-ph {
+    width: 40%;
+   
+   
+    border-radius: 50%;
+    
+}
+.pro-phs {
+    width: 30px;
+    height: 30px;
+   
+    border-radius: 50%;
+    
+}
+.col-0{
+  flex-basis: 0%;
+}
+    </style>
+  </head>
+  <body>
+    
+<!-- --------------------------------------navbar-------------- -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><i class="fa-solid fa-house"></i>  Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span  class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link mx-3" href="#"><i class="fa-solid fa-address-book"></i>   </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-3" href="#"><i class='fas fa-envelope mt-1 mr-3'></i></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3" href="#"><i class="fa-solid fa-bell"></i></a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                
+              </span>
+            </div>
+          </div>
+      </nav>
+
+
+
+      <!-- --------------------------------------row-------------- -->
+<div class="row mx-2 my-2">
+        
+        <!-- -------------------------------------first col-------------- -->
+        <div class="col-lg-3 col-md-3 col-12 d-flex flex-column   mx-9">
+
+
+          <div class="card   shadow">
+            <div class="d-flex justify-content-center align-items-center flex-column">
+              <h5 class="ml-4">My Profile</h5>
+                <img src="aa.jpg" alt="" class="pro-ph">
+            </div>
+                
+                <hr class="mt-n1">
+              <div class="card-body mt-n3 justify-content-start align-items-start">
+                <h6><i class='fas fa-briefcase  mr-3'></i> Fullstack.net</h6>
+                <h6><i class='fas fa-home mt-1 mr-3'></i> 6 october</h6>
+                <h6><i class='fas fa-envelope mt-1 mr-3'></i> esraa@gmail.com</h6>
+                <h6><i class="fas fa-phone-alt mt-1 mr-3"></i> 01152010630</h6>
+              </div>
+          </div>
+
+
+
+          <div class="card justify-content-start align-items-start shadow text-bg-secondary my-3 shadow">
+            <div class="card-body mt-n3 justify-content-start">
+                <h6><i class='fas fa-home mt-1 mr-3'></i> 6 october</h6>
+                <h6><i class='fas fa-envelope mt-1 mr-3'></i> esraa@gmail.com</h6>
+                <h6><i class="fas fa-phone-alt mt-1 mr-3"></i> 01152010630</h6>
+             </div>
+          </div>
+
+
+
+
+          <div class="card justify-content-center align-items-start shadow  my-3">
+            <div class="card-body mt-n3 justify-content-start">
+                <h5 class="ml-4">Intersts</h5>
+                
+                <button type="button" class="btn btn-dark btn-sm m-2">Design</button>
+                <button type="button" class="btn btn-dark btn-sm">news</button>
+                <button type="button" class="btn btn-dark btn-sm">fgfhfgnhg</button>
+                <button type="button" class="btn btn-secondary btn-sm">fgnghnhgnghng</button>
+                <button type="button" class="btn btn-secondary btn-sm">fnfdndf</button>
+             </div>
+          </div>
+
+
+
+
+
+          <div class="card justify-content-start align-items-center shadow text-bg-tertiary  my-3 shadow">
+            <div class="card-body mt-n3 justify-content-start">
+              <h5 class="ml-4">Hey!</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+             </div>
+          </div>
+          
+        </div>
+
+
+        
+<!-- -------------------------------------second col-------------- -->
+       <div class="col-lg-7 col-md-7 col-12  flex-column">
+          
+
+          <nav class="navbar  navbar-light bg-light flex-column">
+            <div class="container">
+              <a class="navbar-brand" href="#">Socail Media </a>
+              <input class="form-control mr-2" type="search" placeholder="Search Here" aria-label="Search" style="    background-color: #efefef;">
+              <button type="button" class="btn btn-secondary btn-sm my-3"><i class="fa-solid fa-pen"></i> Post</button>      
+            </div>
+          </nav>
+
+        
+          
+          <div class="card justify-content-center align-items-start shadow  my-3">
+
+
+            <div class="card-body mt-n3 justify-content-start">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex justify-content-start align-items-start">
+                  <img src="aa.jpg" alt=""class="pro-phs ">
+                  <h6>Esraa Hany</h6>
+                </div>
+                <pre class="d-flex justify-content-end " style="color: gray; text-align: end;">1min</pre>
+              </div>
+                
+
+                <hr> 
+                <p class="mx-2 text-muted ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tenetur cumque quam in aperiam excepturi amet est quo architecto blanditiis, odio necessitatibus accusantium facilis obcaecati? Sequi, cupiditate? Temporibus, tenetur reprehenderit?
+              </p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center" >
+              <img src="1.PNG" alt="" width="50%" class="px-2">
+              <img src="2.PNG" alt=""width="50%"class="px-2">
+            </div>
+            
+            <hr><br>
+            
+            
+            <div class="d-flex justify-content-around m-2">
+                <button type="button" class="btn btn-secondary btn-sm mx-1"> <i class="fa fa-heart"></i>Like</button>
+                <button type="button" class="btn btn-secondary btn-sm mx-1"> <i class="fa fa-comment"></i>Comments</button>
+                <button type="button" class="btn btn-secondary btn-sm mx-1"> <i class="fa fa-share"></i>Share</button>
+                    
+            </div>
+            </div>
+
+
+
+
+            <div class="card justify-content-center align-items-start shadow  my-3">
+
+
+              <div class="card-body mt-n3 justify-content-start">
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="d-flex justify-content-start align-items-start">
+                    <img src="aa.jpg" alt=""class="pro-phs ">
+                    <h6>Esraa Hany</h6>
+                  </div>
+                  <pre class="d-flex justify-content-end " style="color: gray; text-align: end;">20min</pre>
+                </div>
+                  
+  
+                  <hr> 
+                  <p class="mx-2 text-muted ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tenetur cumque quam in aperiam excepturi amet est quo architecto blanditiis, odio necessitatibus accusantium facilis obcaecati? Sequi, cupiditate? Temporibus, tenetur reprehenderit?
+                </p>
+              </div>
+              
+              
+              
+              <div class="d-flex justify-content-around m-2">
+                  <button type="button" class="btn btn-secondary btn-sm mx-1"> <i class="fa fa-heart"></i>Like</button>
+                  <button type="button" class="btn btn-secondary btn-sm mx-1"> <i class="fa fa-comment"></i>Comments</button>
+                  <button type="button" class="btn btn-secondary btn-sm mx-1"> <i class="fa fa-share"></i>Share</button>
+                      
+              </div>
+              </div>
+      
+
+
+
+
+              <div class="card justify-content-center align-items-start shadow  my-3">
+
+
+                <div class="card-body mt-n3 justify-content-start">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex justify-content-start align-items-start">
+                      <img src="aa.jpg" alt=""class="pro-phs ">
+                      <h6>Esraa Hany</h6>
+                    </div>
+                    <pre class="d-flex justify-content-end " style="color: gray; text-align: end;">1hr</pre>
+                  </div>
+                    
+    
+                    <hr> 
+                    <p class="mx-2 text-muted ">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tenetur cumque quam in aperiam excepturi amet est quo architecto blanditiis, odio necessitatibus accusantium facilis obcaecati? Sequi, cupiditate? Temporibus, tenetur reprehenderit?
+                  </p>
+                </div>
+                <div class="d-flex justify-content-center align-items-center" >
+                  <img src="3.PNG" alt="" width="95%" class="px-2">
+                 
+                </div>
+                
+                <hr><br>
+                
+                
+                <div class="d-flex justify-content-around m-2">
+                    <button type="button" class="btn btn-secondary btn-sm mx-1"> <i class="fa fa-heart"></i>Like</button>
+                    <button type="button" class="btn btn-secondary btn-sm mx-1"> <i class="fa fa-comment"></i>Comments</button>
+                    <button type="button" class="btn btn-secondary btn-sm mx-1"> <i class="fa fa-share"></i>Share</button>
+                        
+                </div>
+                </div>
+
+
+
+
+        </div>
+
+        
+
+<!-- -------------------------------------third col-------------- -->
+        <div class="col-lg-2 col-md-2 col-12  flex-column">
+          
+       <div class="card justify-content-center align-items-center  shadow  my-3">
+
+
+        <div class="card-body mt-n3 justify-content-center">
+          
+            <h5 class="mx-2 text-muted ">Lorem </h5>
+          </div>
+          <div class="d-flex justify-content-center align-items-center" >
+            <img src="3.PNG" alt="" width="95%" class="px-2">
+           
+          </div>
+          <h5 class="mx-2 text-muted ">Lorem </h5>
+            <p class="mx-2 text-muted ">Lorem ipsum </p>
+         
+        <div class="d-flex justify-content-center m-2">
+            
+            <button type="button" class="btn btn-secondary btn-sm px-5">   Info    </button>
+                
+        </div>
+        
+        </div>
+
+
+
+             <div class="card justify-content-center align-items-center  shadow  my-3">
+
+
+          <div class="card-body mt-n3 justify-content-center">
+            
+              <h5 class="mx-2 text-muted ">Lorem ipsum</h5>
+            </div>
+            <div class="d-flex justify-content-center align-items-center" >
+              <img src="3.PNG" alt="" width="60%" class="px-2">
+             </div>
+            <h5 class="mx-2 text-muted ">Lorem </h5>
+              <p class="mx-2 text-muted ">Lorem ipsum </p>
+           
+          <div class="d-flex justify-content-center m-2">
+              
+              <button type="button" class="btn btn-danger btn-sm px-3"><i class="fa-solid fa-check"></i></button>
+              <button type="button" class="btn btn-success btn-sm px-4"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+                  
+          </div>
+          
+          </div>
+
+
+
+          <div class="card justify-content-center align-items-center  shadow  my-3">
+            <div class="card-body mt-n3 justify-content-center">
+              <h5 class="mx-2 text-muted ">ADS</h5>
+              </div>
+            </div>
+
+
+
+            <div class="card justify-content-center align-items-center  shadow  my-3">
+              <div class="card-body mt-n3 justify-content-center">
+                <i class="fa-sharp fa-solid fa-bug"></i>
+                </div>
+              </div>
+
+       </div>
+
+
+
+
+
+</div>
+
+
+
+
+<!-- --------------------------------------Footer-------------- -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">Footer</a>
+    
+    </div>
+</nav>
+   
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary opacity-50"data-bs-theme="dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">Footer</a>
+    
+    </div>
+</nav>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
